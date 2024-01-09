@@ -11,8 +11,8 @@ body {
 /* Header styles */
 header {
     position: relative;
-    background: linear-gradient(to right, #8e44ad, #3498db); /* Updated Header gradient background */
-    color: #ecf0f1; /* Text color */
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: #ecf0f1;
     text-align: center;
     padding: 20px;
 }
@@ -36,11 +36,11 @@ nav a {
     color: #ecf0f1;
     font-weight: bold;
     font-size: 18px;
-    transition: color 0.3s ease-out; /* Add smooth color transition */
+    transition: color 0.3s ease-out;
 }
 
 nav a:hover {
-    color: #f39c12; /* Change color on hover */
+    color: #f39c12;
 }
 
 /* Section styles */
@@ -49,6 +49,7 @@ section {
     position: relative;
     background: linear-gradient(to right, #3498db, #2c3e50);
     color: #ecf0f1;
+    text-align: center; /* Center text within section */
 }
 
 /* Add animation to sections */
@@ -60,18 +61,20 @@ section h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, #2c3e50, #8e44ad); /* Updated Footer gradient background */
+    background: linear-gradient(to right, #2c3e50, #8e44ad);
     color: #ecf0f1;
 }
 
 /* Project styles */
 .project {
+    margin: 0 auto; /* Center the project item horizontally */
     margin-bottom: 20px;
-    transition: transform 0.3s ease-out; /* Add smooth transform transition */
+    transition: transform 0.3s ease-out;
+    text-align: center; /* Center text within project item */
 }
 
 .project:hover {
-    transform: scale(1.05); /* Enlarge project on hover */
+    transform: scale(1.05);
 }
 
 .project h3 {
