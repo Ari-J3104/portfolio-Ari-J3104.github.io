@@ -22,9 +22,11 @@
     <section id="projects">
         <h2>Projects</h2>
 
+
         <div class="project">
             <h3>Foodi</h3>
             <p>Second place HackBU Hackathon 2024 web app that utilizes a machine learning model, React.js front end, Node.js back end, and various APIs to scan food and provide macronutrients on all devices!</p>
+            <!-- Adjust the URL based on the actual URL of your weather app on Heroku -->
             <iframe src="https://chinny.net/projects/foodi-app" width="100%" height="600px" frameborder="0"></iframe>
             <p>Find the code on GitHub: <a href="https://github.com/Ari-J3104/food-hack" target="_blank">GitHub Repository</a></p>
         </div>
@@ -32,21 +34,39 @@
         <div class="project">
             <h3>Weather API Project</h3>
             <p>This project utilizes a Weather API to fetch and display weather information. This is the current weather with the precipitation followed by the 7 day forecast for New York City!</p>
+            <!-- Adjust the URL based on the actual URL of your weather app on Heroku -->
             <iframe src="https://vast-meadow-70777-dabb3be626e4.herokuapp.com/" width="100%" height="600px" frameborder="0"></iframe>
             <p>Find the code on GitHub: <a href="https://github.com/Ari-J3104/weather.git" target="_blank">GitHub Repository</a></p>
         </div>
 
-        <!-- Add other projects as needed -->
+        <div class="project">
+            <h3>Pokemon 1v1 Project</h3>
+            <p>Randomly generate pokemon to do 1v1 battles with them and even display images of them when you run it!</p>
+            <p>Find the code on GitHub: <a href="https://github.com/Ari-J3104/Pokemon-1v1.git" target="_blank">GitHub Repository</a></p>
+        </div>
 
         <div class="project">
-            <h3>Camera Roll Access Project</h3>
-            <p>This project allows access to the camera roll.</p>
-            
-            <!-- Input for file upload -->
-            <input type="file" accept="image/*" capture="environment">
-            
-            <!-- Display area for selected image -->
-            <div id="imagePreview"></div>
+            <h3>CS Research Immersion "Housing Bias" Research Project</h3>
+            <p>Used a machine learning algorithm and CNN to detect whether people will get their housing loan approved and tested whether race played a factor in these decisions. </p>
+            <p>Find the code on GitHub: <a href="https://github.com/Ari-J3104/Aryan-Jain-FRI.git" target="_blank">GitHub Repository</a></p>
+        </div>
+        
+        <div class="project">
+            <h3>CS Data Structures and Algorithms Project 3</h3>
+            <p>Created a dynamically allocated array class from scratch that replaced the use of the Vector data structure. Used the array class to organize a movie and actor database. </p>
+            <p>Find the code on GitHub: <a href="https://github.com/Binghamton-University-CS/cs310-fall2023-cp3-Ari-J3104.git" target="_blank">GitHub Repository</a></p>
+        </div>
+        
+        <div class="project">
+            <h3>CS Computer Architecture "Floating Point" Project</h3>
+            <p>Created a function that can take a double value and convert it to a floatx value.</p>
+            <p>Find the code on GitHub: <a href="https://github.com/Ari-J3104/Floating-Point.git" target="_blank">GitHub Repository</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Other Projects</h3>
+            <p>The labs and side projects that led up to these larger projects can all be found via this link. Defintely check out image border tracking to get better at analyzing images via Python!</p>
+            <p>Find my projects on my GitHub profile: <a href="https://github.com/Ari-J3104" target="_blank">My GitHub Profile</a></p>
         </div>
 
         <!-- Add other projects as needed -->
@@ -59,20 +79,5 @@
     <footer>
         <p>Contact me at: aryan.j3104@gmail.com</p>
     </footer>
-
-    <!-- Include your JavaScript code for handling camera roll access -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Get the file input element
-            var fileInput = document.querySelector('input[type="file"]');
-
-            // Check if the file input is available
-            if (fileInput) {
-                // Trigger the file input programmatically
-                fileInput.click();
-            }
-        });
-    </script>
-    <script src="camera.js"></script>
 </body>
 </html>
